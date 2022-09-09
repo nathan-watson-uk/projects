@@ -1,2 +1,3 @@
-# projects
-A collection of my old Python programming scripts
+# Projects
+
+A collection of my old Python programming scripts.

@@ -388,10 +388,10 @@ import string
 import socket
 import time
 
-scraper = pokemon_tcg.EbayScrape(["pokemon tcg card mint", "pokemon card"], 200, "LE114FX")
+scraper = pokemon_tcg.EbayScrape(["pokemon tcg card mint", "pokemon card"], 200, "LE2")
 
 
-# Gets the correct chromedriver for Nate/Toon
+# Gets the correct chromedriver for 
 if str(socket.gethostname()) == "DESKTOP-2M0L686":
     scraper.set_chromedriver(r"C:\Users\natej\PycharmProjects\pokemon-tcg\chromedriver.exe")
 
